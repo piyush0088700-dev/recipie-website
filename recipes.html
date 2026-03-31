@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Recipes — Delicious Recipes</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Delicious<span>Recipes</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html" class="active">All Recipes</a></li>
+        <li><a href="recipe-pasta.html">Pasta</a></li>
+        <li><a href="recipe-biryani.html">Biryani</a></li>
+        <li><a href="recipe-cake.html">Chocolate Cake</a></li>
+        <li><a href="recipe-tacos.html" class="nav-cta">Try a Recipe</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <h1>All Recipes</h1>
+    <p>Explore our full collection of hand-crafted, kitchen-tested recipes</p>
+  </div>
+
+  <!-- Search Bar -->
+  <div style="background:var(--warm-white);padding:28px 24px;border-bottom:1px solid var(--light-gray);">
+    <div style="max-width:600px;margin:0 auto;">
+      <div class="search-bar" style="box-shadow:var(--shadow-soft);">
+        <input type="text" placeholder="Search by recipe name or ingredient..." />
+        <button type="button">Search</button>
+      </div>
+    </div>
+  </div>
+
+  <section class="recipes-page">
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">Vegetarian</button>
+      <button class="filter-btn">Non-Vegetarian</button>
+      <button class="filter-btn">Desserts</button>
+      <button class="filter-btn">Easy</button>
+      <button class="filter-btn">Medium</button>
+      <button class="filter-btn">Hard</button>
+      <button class="filter-btn">Quick (&lt;30 min)</button>
+    </div>
+
+    <div class="recipes-grid">
+
+      <div class="recipe-card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&q=80" alt="Pasta Carbonara" class="recipe-card-img" />
+          <div class="card-badge"><span class="tag tag-easy">Easy</span></div>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-card-meta"><span class="tag tag-veg">Veg</span></div>
+          <h3><a href="recipe-pasta.html">Classic Pasta Carbonara</a></h3>
+          <p>Silky, creamy pasta with parmesan and a rich egg sauce — an Italian classic.</p>
+          <div class="recipe-card-footer">
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" style="width:16px;height:16px;stroke:var(--terracotta)"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              25 min
+            </span>
+            <a href="recipe-pasta.html" class="btn btn-primary" style="padding:8px 16px;font-size:0.82rem;">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="recipe-card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&q=80" alt="Chicken Biryani" class="recipe-card-img" />
+          <div class="card-badge"><span class="tag tag-medium">Medium</span></div>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-card-meta"><span class="tag tag-nonveg">Non-Veg</span></div>
+          <h3><a href="recipe-biryani.html">Chicken Biryani</a></h3>
+          <p>Fragrant basmati rice layered with spiced chicken and saffron.</p>
+          <div class="recipe-card-footer">
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" style="width:16px;height:16px;stroke:var(--terracotta)"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              75 min
+            </span>
+            <a href="recipe-biryani.html" class="btn btn-primary" style="padding:8px 16px;font-size:0.82rem;">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="recipe-card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80" alt="Chocolate Cake" class="recipe-card-img" />
+          <div class="card-badge"><span class="tag tag-medium">Medium</span></div>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-card-meta"><span class="tag tag-dessert">Dessert</span></div>
+          <h3><a href="recipe-cake.html">Chocolate Fudge Cake</a></h3>
+          <p>A deeply indulgent, moist chocolate cake with velvety ganache frosting.</p>
+          <div class="recipe-card-footer">
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" style="width:16px;height:16px;stroke:var(--terracotta)"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              60 min
+            </span>
+            <a href="recipe-cake.html" class="btn btn-primary" style="padding:8px 16px;font-size:0.82rem;">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="recipe-card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&q=80" alt="Tacos" class="recipe-card-img" />
+          <div class="card-badge"><span class="tag tag-easy">Easy</span></div>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-card-meta"><span class="tag tag-nonveg">Non-Veg</span></div>
+          <h3><a href="recipe-tacos.html">Street-Style Tacos</a></h3>
+          <p>Juicy spiced meat in warm tortillas topped with fresh salsa and lime.</p>
+          <div class="recipe-card-footer">
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" style="width:16px;height:16px;stroke:var(--terracotta)"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              30 min
+            </span>
+            <a href="recipe-tacos.html" class="btn btn-primary" style="padding:8px 16px;font-size:0.82rem;">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="recipe-card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1555126634-323283e090fa?w=600&q=80" alt="Masala Chai" class="recipe-card-img" />
+          <div class="card-badge"><span class="tag tag-easy">Easy</span></div>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-card-meta"><span class="tag tag-veg">Veg</span></div>
+          <h3><a href="recipe-chai.html">Masala Chai</a></h3>
+          <p>Warming spiced tea brewed with ginger, cardamom, and creamy milk.</p>
+          <div class="recipe-card-footer">
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" style="width:16px;height:16px;stroke:var(--terracotta)"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              15 min
+            </span>
+            <a href="recipe-chai.html" class="btn btn-primary" style="padding:8px 16px;font-size:0.82rem;">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="recipe-card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80" alt="Dal Tadka" class="recipe-card-img" />
+          <div class="card-badge"><span class="tag tag-easy">Easy</span></div>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-card-meta"><span class="tag tag-veg">Veg</span></div>
+          <h3><a href="recipe-dal.html">Dal Tadka</a></h3>
+          <p>Creamy yellow lentils tempered with mustard seeds, garlic, and cumin.</p>
+          <div class="recipe-card-footer">
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" style="width:16px;height:16px;stroke:var(--terracotta)"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              40 min
+            </span>
+            <a href="recipe-dal.html" class="btn btn-primary" style="padding:8px 16px;font-size:0.82rem;">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="nav-logo">Delicious<span style="color:rgba(253,246,238,0.5)">Recipes</span></span>
+          <p>A collection of beloved recipes made with care and shared with love.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Recipes</h4>
+          <ul>
+            <li><a href="recipe-pasta.html">Pasta Carbonara</a></li>
+            <li><a href="recipe-biryani.html">Chicken Biryani</a></li>
+            <li><a href="recipe-cake.html">Chocolate Cake</a></li>
+            <li><a href="recipe-tacos.html">Street Tacos</a></li>
+            <li><a href="recipe-chai.html">Masala Chai</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="recipes.html">Vegetarian</a></li>
+            <li><a href="recipes.html">Non-Vegetarian</a></li>
+            <li><a href="recipes.html">Desserts</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 DeliciousRecipes. All rights reserved.</p>
+        <p>Made with ❤️</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

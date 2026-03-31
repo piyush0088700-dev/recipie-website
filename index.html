@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delicious Recipes — Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Delicious<span>Recipes</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="recipes.html">All Recipes</a></li>
+        <li><a href="recipe-pasta.html">Pasta</a></li>
+        <li><a href="recipe-biryani.html">Biryani</a></li>
+        <li><a href="recipe-cake.html">Chocolate Cake</a></li>
+        <li><a href="recipe-tacos.html" class="nav-cta">Try a Recipe</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-eyebrow">✦ Fresh from the Kitchen</span>
+      <h1>Cook With <em>Passion</em>,<br>Eat With Love</h1>
+      <p>Discover hand-crafted recipes from around the world — made simple for every home cook.</p>
+
+      <!-- Search Bar (UI only) -->
+      <div class="search-bar">
+        <input type="text" placeholder="Search recipes, ingredients..." />
+        <button type="button">Search</button>
+      </div>
+
+      <div class="hero-actions">
+        <a href="recipes.html" class="btn btn-primary">Browse All Recipes</a>
+        <a href="#featured" class="btn btn-outline" style="color:white;border-color:rgba(255,255,255,0.5);">Featured Dishes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <div class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <span class="stat-number">50+</span>
+        <span class="stat-label">Recipes</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">3</span>
+        <span class="stat-label">Categories</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">15 min</span>
+        <span class="stat-label">Fastest Recipe</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">100%</span>
+        <span class="stat-label">Homemade</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== INTRO ===== -->
+  <section class="intro-section">
+    <div class="intro-inner">
+      <div class="intro-image-block">
+        <img
+          src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
+          alt="Chef cooking"
+          class="intro-image-main"
+        />
+        <div class="intro-badge">
+          <span class="num">5★</span>
+          <span class="label">Rated Recipes</span>
+        </div>
+      </div>
+      <div class="intro-text">
+        <span class="tag tag-veg" style="margin-bottom:16px;">Our Story</span>
+        <h2>Good Food Starts With Great Recipes</h2>
+        <p>We believe cooking should be joyful, approachable, and deeply satisfying. Our recipes are tested in real home kitchens, with everyday ingredients and clear, step-by-step guidance.</p>
+        <p>Whether you're a beginner or a seasoned cook, you'll find something to love — from 20-minute weeknight meals to show-stopping desserts.</p>
+        <div class="intro-features">
+          <div class="intro-feature">
+            <div class="feature-icon">🌿</div>
+            <div>
+              <h4>Fresh Ingredients</h4>
+              <p>Seasonal, wholesome produce</p>
+            </div>
+          </div>
+          <div class="intro-feature">
+            <div class="feature-icon">⏱️</div>
+            <div>
+              <h4>Quick & Easy</h4>
+              <p>Most recipes under 45 mins</p>
+            </div>
+          </div>
+          <div class="intro-feature">
+            <div class="feature-icon">🌍</div>
+            <div>
+              <h4>World Cuisines</h4>
+              <p>From Italian to Indian & beyond</p>
+            </div>
+          </div>
+          <div class="intro-feature">
+            <div class="feature-icon">👨‍🍳</div>
+            <div>
+              <h4>Chef-Tested</h4>
+              <p>Every recipe is quality-checked</p>
+            </div>
+          </div>
+        </div>
+        <a href="recipes.html" class="btn btn-primary">Explore Recipes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CATEGORIES ===== -->
+  <section class="categories-section">
+    <div class="container" style="text-align:center;margin-bottom:48px;">
+      <h2 class="section-title">Browse By Category</h2>
+      <p class="section-subtitle">Find exactly what you're craving</p>
+    </div>
+    <div class="categories-grid container">
+      <a href="recipes.html" class="category-card">
+        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80" alt="Vegetarian" />
+        <div class="category-overlay">
+          <h3>Vegetarian</h3>
+          <p>Fresh, plant-based delights</p>
+        </div>
+      </a>
+      <a href="recipes.html" class="category-card">
+        <img src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600&q=80" alt="Non-Vegetarian" />
+        <div class="category-overlay">
+          <h3>Non-Vegetarian</h3>
+          <p>Meaty mains & hearty bites</p>
+        </div>
+      </a>
+      <a href="recipes.html" class="category-card">
+        <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600&q=80" alt="Desserts" />
+        <div class="category-overlay">
+          <h3>Desserts</h3>
+          <p>Sweet endings for every meal</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED RECIPES ===== -->
+  <section class="featured-section" id="featured">
+    <div class="featured-header container">
+      <div>
+        <h2 class="section-title">Featured Recipes</h2>
+        <p style="color:var(--mid-gray)">Hand-picked by our chefs this week</p>
+      </div>
+      <a href="recipes.html" class="btn btn-outline">View All →</a>
+    </div>
+    <div class="recipes-grid container">
+
+      <!-- Card 1 -->
+      <div class="recipe-card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&q=80" alt="Pasta Carbonara" class="recipe-card-img" />
+          <div class="card-badge"><span class="tag tag-easy">Easy</span></div>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-card-meta">
+            <span class="tag tag-veg">Veg</span>
+          </div>
+          <h3><a href="recipe-pasta.html">Classic Pasta Carbonara</a></h3>
+          <p>Silky, creamy pasta with parmesan and a rich egg sauce — an Italian classic done right.</p>
+          <div class="recipe-card-footer">
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              25 min
+            </span>
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              2 servings
+            </span>
+            <a href="recipe-pasta.html" class="btn btn-primary" style="padding:8px 16px;font-size:0.82rem;">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="recipe-card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&q=80" alt="Chicken Biryani" class="recipe-card-img" />
+          <div class="card-badge"><span class="tag tag-medium">Medium</span></div>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-card-meta">
+            <span class="tag tag-nonveg">Non-Veg</span>
+          </div>
+          <h3><a href="recipe-biryani.html">Chicken Biryani</a></h3>
+          <p>Fragrant basmati rice layered with spiced chicken, caramelised onions, and saffron.</p>
+          <div class="recipe-card-footer">
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              75 min
+            </span>
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              4 servings
+            </span>
+            <a href="recipe-biryani.html" class="btn btn-primary" style="padding:8px 16px;font-size:0.82rem;">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="recipe-card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80" alt="Chocolate Cake" class="recipe-card-img" />
+          <div class="card-badge"><span class="tag tag-medium">Medium</span></div>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-card-meta">
+            <span class="tag tag-dessert">Dessert</span>
+          </div>
+          <h3><a href="recipe-cake.html">Chocolate Fudge Cake</a></h3>
+          <p>A deeply indulgent, moist chocolate cake with velvety ganache frosting.</p>
+          <div class="recipe-card-footer">
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              60 min
+            </span>
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              8 servings
+            </span>
+            <a href="recipe-cake.html" class="btn btn-primary" style="padding:8px 16px;font-size:0.82rem;">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="recipe-card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&q=80" alt="Tacos" class="recipe-card-img" />
+          <div class="card-badge"><span class="tag tag-easy">Easy</span></div>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-card-meta">
+            <span class="tag tag-nonveg">Non-Veg</span>
+          </div>
+          <h3><a href="recipe-tacos.html">Chicken Tacos</a></h3>
+          <p>Juicy spiced meat in warm corn tortillas topped with fresh salsa and lime.</p>
+          <div class="recipe-card-footer">
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              30 min
+            </span>
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              3 servings
+            </span>
+            <a href="recipe-tacos.html" class="btn btn-primary" style="padding:8px 16px;font-size:0.82rem;">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="recipe-card">
+        <div class="card-img-wrapper">
+          <img src="data:image/jpeg;base64,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" alt="Masala Chai" class="recipe-card-img" />
+          <div class="card-badge"><span class="tag tag-easy">Easy</span></div>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-card-meta">
+            <span class="tag tag-veg">Veg</span>
+          </div>
+          <h3><a href="recipe-chai.html">Masala Chai</a></h3>
+          <p>Warming spiced tea brewed with ginger, cardamom, cinnamon, and creamy milk.</p>
+          <div class="recipe-card-footer">
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              15 min
+            </span>
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2"><path d="M17 21v-2a4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              2 servings
+            </span>
+            <a href="recipe-chai.html" class="btn btn-primary" style="padding:8px 16px;font-size:0.82rem;">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="recipe-card">
+        <div class="card-img-wrapper">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR12Pw_3Z542qXQNCDMjcuxXWvT5ik7Aklb0Q&s" alt="Dal Tadka" class="recipe-card-img" />
+          <div class="card-badge"><span class="tag tag-easy">Easy</span></div>
+        </div>
+        <div class="recipe-card-body">
+          <div class="recipe-card-meta">
+            <span class="tag tag-veg">Veg</span>
+          </div>
+          <h3><a href="recipe-dal.html">Dal Tadka</a></h3>
+          <p>Creamy yellow lentils tempered with mustard seeds, garlic, and cumin. Pure comfort.</p>
+          <div class="recipe-card-footer">
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              40 min
+            </span>
+            <span class="recipe-info-item">
+              <svg viewBox="0 0 24 24" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              4 servings
+            </span>
+            <a href="recipe-dal.html" class="btn btn-primary" style="padding:8px 16px;font-size:0.82rem;">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="nav-logo">Delicious<span style="color:rgba(253,246,238,0.5)">Recipes</span></span>
+          <p>A collection of beloved recipes made with care and shared with love. Cook something wonderful today.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Recipes</h4>
+          <ul>
+            <li><a href="recipe-pasta.html">Pasta Carbonara</a></li>
+            <li><a href="recipe-biryani.html">Chicken Biryani</a></li>
+            <li><a href="recipe-cake.html">Chocolate Cake</a></li>
+            <li><a href="recipe-tacos.html">Chicken Tacos</a></li>
+            <li><a href="recipe-chai.html">Masala Chai</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="recipes.html">Vegetarian</a></li>
+            <li><a href="recipes.html">Non-Vegetarian</a></li>
+            <li><a href="recipes.html">Desserts</a></li>
+            <li><a href="recipes.html">Quick Meals</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 DeliciousRecipes. All rights reserved.</p>
+        <p>Made with ❤️</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
